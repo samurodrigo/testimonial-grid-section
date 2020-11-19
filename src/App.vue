@@ -32,4 +32,15 @@ export default {
   margin: 0;
   padding: 0;
 }
+html,
+body,
+#app {
+  height: 100%;
+}
+#app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #edf2f8;
+}
 </style>
