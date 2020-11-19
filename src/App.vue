@@ -20,6 +20,7 @@ export default {
   },
   created() {
     services.getTestimonials().then((response) => {
+      console.log(response);
       this.testimonials = response.data;
     });
   },
